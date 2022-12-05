@@ -13,6 +13,7 @@ throwPoints = {
 with open('day2/input.txt') as input:
     scoreTally = 0
     lines = input.readlines()
+    
     for line in lines:
         round = line.split(' ')
     #outcomes
@@ -22,7 +23,7 @@ with open('day2/input.txt') as input:
             scoreTally+=3 #draw
         elif throwPoints[line[2]] == 3:
             scoreTally+=6 #win
-    #P1 : rock
+    #lose
         if throwPoints[line[0]] == 1:
             if throwPoints[line[2]] == 1:
                 scoreTally += 3 #scissors
@@ -30,7 +31,7 @@ with open('day2/input.txt') as input:
                 scoreTally += 1 #rock
             elif throwPoints[line[2]] == 3:
                 scoreTally += 2 #paper
-    #P1 : paper
+    #draw
         elif throwPoints[line[0]] == 2:
             if throwPoints[line[2]] == 1:
                  scoreTally += 1 #rock
@@ -38,7 +39,7 @@ with open('day2/input.txt') as input:
                  scoreTally += 2 #paper
             elif throwPoints[line[2]] == 3:
                 scoreTally += 3 #scissors
-    #P1 : scissors
+    #win
         elif throwPoints[line[0]] == 3:
             if throwPoints[line[2]] == 1:
                 scoreTally += 2 #paper    

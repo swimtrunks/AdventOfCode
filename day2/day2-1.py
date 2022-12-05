@@ -13,6 +13,7 @@ throwPoints = {
 with open('day2/input.txt') as input:
     scoreTally = 0
     lines = input.readlines()
+    
     for line in lines:
         round = line.split(' ')
     #score tally for each throw value

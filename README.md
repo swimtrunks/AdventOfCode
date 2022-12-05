@@ -8,3 +8,5 @@ I am using this as an oppritunity to continue learning Python. I may also have s
 - **Day 01:** [challenge](https://adventofcode.com/2022/day/1) • [solution](https://github.com/swimtrunks/AdventOfCode/tree/main/day1) • ⭐️ ⭐️
 
 - **Day 02:** [challenge](https://adventofcode.com/2022/day/2) • [solution](https://github.com/swimtrunks/AdventOfCode/tree/main/day2) • ⭐️ ⭐️
+
+- **Day 03:** [challenge](https://adventofcode.com/2022/day/3) • [solution](https://github.com/swimtrunks/AdventOfCode/tree/main/day3) • ⭐️ ⭐️
